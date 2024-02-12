@@ -10,7 +10,7 @@ export default function Home() {
         <div className="bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20">
           <TextGenerateEffect
             words={line1}
-            className={`text-2xl md:text-3xl lg:text-5xl ${dancing_script.className}`}
+            className={`text-2xl md:text-3xl lg:text-8xl ${dancing_script.className}`}
           />
         </div>
       </div>

@@ -11,7 +11,7 @@ export default function Home() {
         <div className="bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20">
           <TextGenerateEffect
             words={line1}
-            className="text-2xl md:text-3xl lg:text-5xl"
+            className="text-2xl md:text-3xl lg:text-8xl"
           />
         </div>
       </div>
