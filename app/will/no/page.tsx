@@ -1,5 +1,7 @@
 import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
+import { dancing_script } from "@/lib/fonts";
+
 
 export default function Home() {
   const line1 = `"Roses are red, violets are blue,
@@ -11,8 +13,7 @@ export default function Home() {
         <div className="bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20">
           <TextGenerateEffect
             words={line1}
-            className="text-2xl md:text-3xl lg:text-8xl"
-          />
+            className={`text-2xl md:text-3xl lg:text-8xl ${dancing_script.className}`}          />
         </div>
       </div>
     </BackgroundGradientAnimation>

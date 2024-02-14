@@ -6,17 +6,7 @@ import { Button } from "@nextui-org/button";
 import Link from "next/link";
 import { BsHeartbreak } from "react-icons/bs";
 import { GiHeartNecklace } from "react-icons/gi";
-import { motion } from "framer-motion";
 
-const line1 = `
-Roses are red, violets are blue,
-`;
-const line2 = `My dear, my valentine's true.
-`;
-const line3 = `Your laughter's contagious, like a joyful tune.
-`;
-const line4 = `Your eyes are like stars, shining brighter than the romantic moon.
-`;
 function valentine() {
   return (
     <div className="h-screen relative w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
