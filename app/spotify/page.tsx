@@ -1,10 +1,10 @@
 
 import React from "react";
-import { dancing_script } from "@/lib/fonts";
+import { sacramento } from "@/lib/fonts";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 
 export default function page() {
-    const line1 = `"And as each note plays, may it be a reminder of the melody of our hearts beating as one."`;
+    const line1 = `And as each note plays, may it be a reminder of the melody of our hearts beating as one.`;
   return (
     <>
       <div className="w-full h-screen bg-gradient-to-r from-pink-500 to-red-500">
@@ -26,7 +26,7 @@ export default function page() {
          
           <TextGenerateEffect
             words={line1}
-            className={`text-5xl md:text-8xl lg:text-9xl ${dancing_script.className}`}
+            className={`text-5xl md:text-8xl lg:text-9xl ${sacramento.className}`}
           />
         </div>
       </div>
