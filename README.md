@@ -1,5 +1,10 @@
 # valentine
 
+![Screenshot from 2024-02-15 08-32-25](https://github.com/Briankim254/valentine/assets/91450029/9014448e-2f2c-4b1a-a175-ef3db8355db5)
+
+![Screenshot from 2024-02-15 08-32-39](https://github.com/Briankim254/valentine/assets/91450029/83a7f86d-1094-4073-908c-02221ba7c075)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
