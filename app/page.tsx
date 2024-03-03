@@ -58,7 +58,7 @@ function valentine() {
                 <div>
                   <Button
                     as={Link}
-                    className="text-sm font-normal text-default-600 bg-default-100 hover:bg-opacity-0 hover:transform hover:scale-x-50 hover:scale-y-50 duration-75"
+                    className="text-sm font-normal text-default-600 bg-default-100 hover:bg-opacity-0 hover:transform hover:scale-x-50 hover:scale-y-50 duration-75 ease-in-out"
                     href={"/will/no"}
                     startContent={
                       <BsHeartbreak size={"22"} className="text-danger" />
