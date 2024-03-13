@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { noto_serif } from "../lib/fonts";
 import "./globals.css";
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 
@@ -19,6 +20,7 @@ export default function RootLayout({
     <html lang="en" className={noto_serif.className} >
       <body className={noto_serif.className}>{children}</body>
       <Analytics />
+      <SpeedInsights />
     </html>
   );
 }
